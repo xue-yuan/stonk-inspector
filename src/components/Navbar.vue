@@ -1,18 +1,25 @@
 <template>
   <div id="navbar">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-n-purple">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-n-purple text-center">
       <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+      <!-- <div class="text-center"> -->
+        <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
           <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active home-link" href="/">Stonk {{ symbol }}</a>
+              <a class="nav-link active home-link" href="/"></a>
             </li>
           </ul>
+        </div> -->
+      <!-- </div> -->
+        <div class="mx-auto">
+          <a class="navbar-brand mx-auto" href="/">Stonks {{ symbol }}</a>
         </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
       </div>
     </nav>
   </div>
@@ -23,7 +30,7 @@ export default {
   name: 'Navbar',
   data() {
     return {
-      symbolPicker: ['🌴', '🍺', '👾', '🎲', '🇹🇼', '🧬', '🔥', '🎭', '🍀'],
+      symbolPicker: ['𝐈', '❤️𝐊', '🍎', '🖤', '🌴', '🍺', '👾', '🎲', '🇹🇼', '🧬', '🔥', '🎭', '🍀'],
       symbol: '',
     }
   },

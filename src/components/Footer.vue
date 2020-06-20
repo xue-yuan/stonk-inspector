@@ -2,7 +2,7 @@
   <div id="footer">
     <footer class="footer bg-n-purple text-light py-5">
       <div class="container">
-        <span>Cppyright &copy; 2020</span>
+        <span>2050 &copy; Mem3 M@n</span>
       </div>
     </footer>
   </div>
