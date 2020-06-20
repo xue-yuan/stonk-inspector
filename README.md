@@ -1,5 +1,7 @@
 # stonk-inspector
 
+![](https://i.imgur.com/Laer1LA.jpg)
+
 ## Project setup
 ```
 yarn install
